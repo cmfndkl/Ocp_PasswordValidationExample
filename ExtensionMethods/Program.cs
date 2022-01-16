@@ -7,8 +7,8 @@ namespace ExtensionMethods
     {
         static void Main(string[] args)
         {
-            string password = "Cmfndkl11@";
-            Console.WriteLine(password.IsValidPassword(new IsUpper(),new IsDigit()));
+            string password = "Cmfndkl.1";
+            Console.WriteLine(password.IsValidPassword(new IsUpper(),new IsDigit(),new IsSymbol()));
         }
     }
 }
